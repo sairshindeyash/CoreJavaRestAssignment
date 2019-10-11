@@ -1,0 +1,21 @@
+package com.yash.assignment;
+
+import java.util.Calendar;
+import java.util.Date;
+
+public class AddingDate {
+
+	public Date addDays(int i) {
+		Date currentDate=new Date();
+//		System.out.println(currentDate);
+		Calendar calendar= Calendar.getInstance();
+		calendar.setTime(currentDate);
+		System.out.println(calendar.getTime());
+		
+		return null;
+	}
+ public static void main(String[] args) {
+	AddingDate addingDate=new AddingDate();
+	System.out.println(addingDate.addDays(5));
+}
+}

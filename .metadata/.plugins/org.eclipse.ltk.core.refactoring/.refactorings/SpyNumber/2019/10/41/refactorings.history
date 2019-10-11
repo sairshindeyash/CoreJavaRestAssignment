@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;SpyNumber.java&apos; to &apos;SpyNumber/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;SpyNumber&apos;&#x0D;&#x0A;- Destination element: &apos;SpyNumber/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;com.yash.assignment.SpyNumber.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java" element1="/src\/test\/java&lt;com.yash.assignment{SpyNumber.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1570603830970" units="1" version="1.0"/>
+</session>

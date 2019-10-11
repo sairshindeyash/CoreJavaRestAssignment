@@ -1,0 +1,13 @@
+package com.yash.assignment;
+
+import java.util.Date;
+
+public class AddingDate {
+
+	public Date addDays(int i) {
+		Date currentDate=new Date();
+		System.out.println(currentDate);
+		return null;
+	}
+
+}

@@ -1,0 +1,30 @@
+package com.yash.assignment;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class Series {
+
+	
+	public int oddNumberFromSeries(List<Integer> sList) {
+	
+		for (Integer i : sList) {
+			int index=i+1;
+			int index1=i;
+			System.out.println("index==="+index);
+			if(!(index==((i+2)+10)))
+				System.out.println("index==="+index);
+				return (i+2);
+			
+			if(!(index1==((i+2)+5)))
+				System.out.println("index==="+index);
+				return index1;
+			
+		}
+		return 0;
+	}
+	public static void main(String[] args) {
+		Series series=new Series();
+				System.out.println(series.oddNumberFromSeries(Arrays.asList(3,12,8,19,13,32,18,42,23,52)));
+}
+}

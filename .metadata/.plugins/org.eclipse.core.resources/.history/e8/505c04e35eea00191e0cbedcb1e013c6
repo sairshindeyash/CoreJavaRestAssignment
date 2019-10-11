@@ -1,0 +1,13 @@
+package com.yash.assignment;
+
+import java.util.List;
+
+public class ArrayElementReplacement {
+
+	public Integer replaceElement(int element,int replacement,List<Integer> list) {
+		
+		return null;
+	}
+	
+
+}

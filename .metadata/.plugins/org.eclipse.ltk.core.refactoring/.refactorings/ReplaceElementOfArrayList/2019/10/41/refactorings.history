@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;ArrayElementReplacement.java&apos; to &apos;ReplaceElementOfArrayList/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;ReplaceElementOfArrayList&apos;&#x0D;&#x0A;- Destination element: &apos;ReplaceElementOfArrayList/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;com.yash.assignment.ArrayElementReplacement.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java" element1="/src\/test\/java&lt;com.yash.assignment{ArrayElementReplacement.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1570601339598" units="1" version="1.0"/>
+</session>

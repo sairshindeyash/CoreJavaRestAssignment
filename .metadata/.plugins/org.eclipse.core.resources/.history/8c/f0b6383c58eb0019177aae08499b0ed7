@@ -1,0 +1,27 @@
+package com.example.demo;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.MockitoJUnitRunner;
+
+import com.example.dao.EmployeeDao;
+import com.example.entity.Employee;
+import com.example.service.EmployeeService;
+
+@RunWith(MockitoJUnitRunner.class)
+public class EmployeeServiceAspectTest {
+
+	@InjectMocks
+	private EmployeeService employeeService;
+	
+	@Mock
+	private EmployeeDao dao;
+	
+	@Test
+	public void testAop() {
+		Employee employee=new Employee(2, "sai2", 65000, "sai2@gmail.com");
+	}
+	
+}

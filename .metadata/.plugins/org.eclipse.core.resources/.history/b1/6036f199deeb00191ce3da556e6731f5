@@ -1,0 +1,5 @@
+package com.example.swaggerconfiguration;
+
+public class Swagger2UiConfiguration {
+
+}

@@ -1,0 +1,15 @@
+package com.yash.assignment;
+
+import java.util.List;
+
+public class SubList {
+
+	public List<Integer> sublist(int startIndex, int endIndex, List<Integer> asList) {
+
+		return asList.subList(startIndex, startIndex);
+	}
+
+	public static void main(String[] args) {
+		
+	}
+}

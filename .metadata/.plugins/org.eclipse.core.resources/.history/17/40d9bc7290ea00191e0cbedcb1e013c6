@@ -1,0 +1,6 @@
+package com.yash.assignment;
+
+public class GuessNextTest {
+	GuessNext guessNext=new GuessNext();
+	
+}

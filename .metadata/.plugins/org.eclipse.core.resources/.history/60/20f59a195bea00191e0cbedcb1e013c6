@@ -1,0 +1,11 @@
+package com.yash.assignment;
+
+import org.junit.Test;
+
+public class ArrayElementReplacementTest {
+
+	@Test
+	public void shouldReturnModifiedArrayListAfterReplacingElement() {
+		
+	}
+}

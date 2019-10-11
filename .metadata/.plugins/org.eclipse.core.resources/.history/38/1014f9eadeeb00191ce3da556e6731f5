@@ -1,0 +1,7 @@
+package com.example.swaggerconfiguration;
+
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+
+public class Swagger2UiConfiguration extends WebMvcConfigurerAdapter{
+
+}

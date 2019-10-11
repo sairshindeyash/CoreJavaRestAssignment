@@ -1,0 +1,13 @@
+package com.yash.assignment;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class AddingDateTest {
+	AddingDate addingDate=new AddingDate();
+	@Test
+	public void shouldReturnDate14AfterAdding5ToCurrentDate() {
+		assertEquals(12, addingDate.addDays(5));
+	}
+}

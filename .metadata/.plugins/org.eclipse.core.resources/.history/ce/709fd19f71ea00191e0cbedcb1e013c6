@@ -1,0 +1,6 @@
+package com.yash.assignment;
+
+public class VowelTest {
+ Vowel vowel=new Vowel();
+ 
+}

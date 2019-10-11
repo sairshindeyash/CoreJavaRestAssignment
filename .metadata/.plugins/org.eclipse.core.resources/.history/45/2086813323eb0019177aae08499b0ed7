@@ -1,0 +1,25 @@
+package com.yash.assignment;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class GuessNext {
+
+	public int nextNumber(List<Integer> asList) {
+		 int number=0; 
+//		System.out.println(collect);
+
+		for (int i = 0; i < asList.size(); i++) {
+			number = asList.get(asList.size() - 2) + 1;
+		}
+
+		return number;
+	}
+
+	public static void main(String[] args) {
+		GuessNext guessNext = new GuessNext();
+		System.out.println(guessNext.nextNumber(Arrays.asList(7, 10, 8, 11, 9, 12)));
+	}
+
+}

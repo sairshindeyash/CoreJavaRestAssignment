@@ -1,0 +1,14 @@
+package com.yash.assignment;
+
+import java.util.Arrays;
+
+public class Vowel {
+
+	public int countVowelsOfAString(String input) {
+		int vowelCount=0;
+		char[] lettrs = input.toCharArray();
+		
+		return null;
+	}
+
+}

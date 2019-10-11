@@ -1,0 +1,19 @@
+package com.yash.assignment;
+
+import java.time.LocalDate;
+import java.util.Calendar;
+import java.util.Date;
+
+public class AddingDate {
+
+	public LocalDate addDays(int i) {
+		LocalDate localDate=LocalDate.now();
+		LocalDate resultatntDate = localDate.plusDays(i);
+		
+		return resultatntDate;
+	}
+ public static void main(String[] args) {
+	AddingDate addingDate=new AddingDate();
+	System.out.println(addingDate.addDays(5));
+}
+}

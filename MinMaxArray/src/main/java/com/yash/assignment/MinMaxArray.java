@@ -1,0 +1,20 @@
+package com.yash.assignment;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class MinMaxArray {
+
+	public List<Integer> minMaxFromArray(Integer[] numbers) {
+		int min = Arrays.stream(numbers).mapToInt(n -> n).min().getAsInt();
+		int max = Arrays.stream(numbers).mapToInt(n -> n).max().getAsInt();
+		return Arrays.asList(min, max);
+	}
+
+	public static void main(String[] args) {
+		
+		MinMaxArray minMaxArray=new MinMaxArray();
+		Integer[] numbers=new Integer[] {1,5,7,9,10};
+		System.out.println(minMaxArray.minMaxFromArray(numbers));
+	}
+}

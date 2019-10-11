@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="EmployeeCRUD2" project="EmployeeCRUD2" tests="15" started="15" failures="0" errors="0" ignored="0">
+  <testsuite name="com.example.demo.EmployeeServiceTest" time="6.672">
+    <testcase name="testAddMovie" classname="com.example.demo.EmployeeServiceTest" time="0.016"/>
+    <testcase name="testGetAllMovies" classname="com.example.demo.EmployeeServiceTest" time="0.007"/>
+    <testcase name="deleteTest" classname="com.example.demo.EmployeeServiceTest" time="0.016"/>
+    <testcase name="testMovieById" classname="com.example.demo.EmployeeServiceTest" time="6.633"/>
+  </testsuite>
+  <testsuite name="com.example.demo.EmployeeControllerTest" time="1.396">
+    <testcase name="testSaveEmployee" classname="com.example.demo.EmployeeControllerTest" time="0.226"/>
+    <testcase name="givenEmployees_whenGetEmployees_thenReturnJsonArray" classname="com.example.demo.EmployeeControllerTest" time="0.039"/>
+    <testcase name="givenEmployeeId_wwhenUpdateEmployeebyId_ThenReturnJsonObject" classname="com.example.demo.EmployeeControllerTest" time="0.014"/>
+    <testcase name="givenInvalidEmployeeId_whenUpdateEmployeebyId_ThenReturnRecordNotFound" classname="com.example.demo.EmployeeControllerTest" time="0.02"/>
+    <testcase name="givenEmployeeId_wwhenGetEmployeebyId_ThenReturnNotOk" classname="com.example.demo.EmployeeControllerTest" time="0.006"/>
+    <testcase name="givenInvalidEmployeeId_WhenGetEmployeebyId_ThenReturnNotFound" classname="com.example.demo.EmployeeControllerTest" time="0.006"/>
+    <testcase name="givenEmployeeId_wwhenGetEmployeebyId_ThenReturnJsonObject" classname="com.example.demo.EmployeeControllerTest" time="0.005"/>
+    <testcase name="shouldCheckDeleteMethodGetsCalled" classname="com.example.demo.EmployeeControllerTest" time="0.01"/>
+    <testcase name="shouldNotDeleteEmployeeIfEmployeeDoesNotExists" classname="com.example.demo.EmployeeControllerTest" time="1.069"/>
+  </testsuite>
+  <testsuite name="com.example.demo.EmployeeCrudApplicationTests" time="0.007">
+    <testcase name="contextLoads" classname="com.example.demo.EmployeeCrudApplicationTests" time="0.007"/>
+  </testsuite>
+  <testsuite name="com.example.demo.EmployeeServiceAspectTest" time="0.017">
+    <testcase name="testAop" classname="com.example.demo.EmployeeServiceAspectTest" time="0.017"/>
+  </testsuite>
+</testrun>

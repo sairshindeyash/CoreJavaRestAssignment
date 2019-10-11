@@ -1,0 +1,21 @@
+package com.yash.assignment;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class SpyNumberTest {
+SpyNumber spyNumber=new SpyNumber();
+
+@Test
+public void shouldReturnTrueIfAGivenNumberIsSpyNumber() {
+	assertEquals(true, spyNumber.checkSpyNumber(22));
+}
+
+
+@Test
+public void shouldReturnFalseIfAGivenNumberIsSpyNumber() {
+	assertEquals(false, spyNumber.checkSpyNumber(222));
+}
+
+}

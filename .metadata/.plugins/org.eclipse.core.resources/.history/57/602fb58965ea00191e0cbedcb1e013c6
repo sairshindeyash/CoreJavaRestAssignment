@@ -1,0 +1,11 @@
+package com.yash.assignment;
+
+import org.junit.Test;
+
+public class AddingDateTest {
+	AddingDate addingDate=new AddingDate();
+	@Test
+	public void shouldReturnDate12AfterAdding10ToCurrentDate() {
+		
+	}
+}

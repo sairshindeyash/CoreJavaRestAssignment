@@ -1,0 +1,21 @@
+package com.yash.assignment;
+
+public class Capitalize {
+
+	public String changeCaseOfLetter(String original) {
+		String modifiedString="";
+		String[] words = original.split(" ");
+		for (String word : words) {
+			char[] letters=word.toCharArray();
+			System.out.println("let==="+letters);
+			for(int i=0;i<letters.length;i++) {
+				if(i==0 || i==letters.length-1) {
+					String n=new String(letters);
+					modifiedString=modifiedString+new String(letters[i]).toUpperCase();
+				}
+			}
+		}
+		return null;
+	}
+
+}

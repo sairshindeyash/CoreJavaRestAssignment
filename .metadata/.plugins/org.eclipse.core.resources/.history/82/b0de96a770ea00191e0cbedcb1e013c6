@@ -1,0 +1,22 @@
+package com.yash.assignment;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class SubList {
+
+	public List<Integer> sublist(int startIndex, int endIndex, List<Integer> asList) {
+		System.out.println(asList);
+		if(startIndex>endIndex)
+			throw new IllegalArgumentException("Start Index can not exceed end index");
+		if(endIndex>asList.size())
+			throw new ArrayIndexOutOfBoundsException("End index can not exceed list size")
+		System.out.println(asList.subList(startIndex, endIndex));
+		return asList.subList(startIndex, endIndex);
+	}
+
+	public static void main(String[] args) {
+		SubList list=new SubList();
+		System.out.println(list.sublist( 5, 10, Arrays.asList(1,2,3,4,12,10,5,20,30,22,66,2)));
+	}
+}

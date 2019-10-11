@@ -1,0 +1,5 @@
+package com.yash.assignment;
+
+public class MinMaxArrayTest {
+	MinMaxArray minMaxArray=new MinMaxArray();
+}

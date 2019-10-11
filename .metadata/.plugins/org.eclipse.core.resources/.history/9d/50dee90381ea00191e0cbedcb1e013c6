@@ -1,0 +1,18 @@
+package com.yash.assignment;
+
+import java.util.List;
+
+public class Series {
+
+	
+	public int oddNumberFromSeries(List<Integer> sList) {
+		int expectedRes1=10;
+		int expectedRes2=5;
+		for (Integer i : sList) {
+			int diff1=(i+2)-i;
+			
+		}
+		return null;
+	}
+
+}

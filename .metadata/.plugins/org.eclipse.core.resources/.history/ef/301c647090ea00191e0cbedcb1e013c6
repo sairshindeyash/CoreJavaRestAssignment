@@ -1,0 +1,14 @@
+package com.yash.assignment;
+
+import java.util.List;
+
+public class GuessNext {
+
+	public int nextNumber(List<Integer> asList) {
+		for(int i=0;i<asList.size();i++) {
+			int number=asList.get(asList.size()-2)+1;
+		}
+		return null;
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.yash.assignment;
+
+import java.util.List;
+
+public class ArrayElementReplacement {
+
+	public List<Integer> replaceElement(int element,int replacement,List<Integer> list) {
+		if(list.contains(element)) {
+			int index=list.indexOf(element);
+			list.set(index, replacement);
+		}
+		return list;
+	}
+	
+
+}
