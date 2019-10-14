@@ -51,12 +51,17 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.yash.assignment2"/>
 			<item value="com.yash.assignment"/>
 			<item value="com.yash.all"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="CharacterCount"/>
+			<item value="HashMapInAscendingOrderOfItsValues"/>
+			<item value="SecondHighestInAnArray"/>
+			<item value="LengthOfLoop"/>
 			<item value="GuessNext"/>
 			<item value="Series"/>
 			<item value="Capitalize"/>
